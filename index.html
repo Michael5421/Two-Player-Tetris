@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Two-Player Tetris</title>
+		<link rel="icon" href="Photos/block.png">
+	</head>
+	<link rel="stylesheet" href="CSS/tetris.css">
+	<link rel="stylesheet" href="CSS/crt.css">
+	<body>
+		<div class="player">
+			<div class="stroke">
+			<div class="score"></div>
+			<canvas class="tetris" width="240" height="400"></canvas>
+			<div class="crt">
+			</div> </div></div>
+			<audio autoplay>
+			<source src="Audio/track.mp3" type="audio/mp3">
+		  </audio>
+		  <img src="Photos/controls.png" style="width:400px;height:120px;padding-top: 330px;">
+	<div class="player">
+		<div class="stroke">
+		<div class="score"></div>
+		<canvas class="tetris" width="240" height="400"></canvas>
+		<div class="crt">
+	</div></div></div>
+</body>
+		<script src="JavaScript/pieceFactory.js" ></script>
+		<script src="JavaScript/arena.js" ></script>
+		<script src="JavaScript/player.js" ></script>
+		<script src="JavaScript/tetris.js" ></script>
+		<script src="JavaScript/main.js" ></script>
+		<div class="overlay"></div>
+</html>

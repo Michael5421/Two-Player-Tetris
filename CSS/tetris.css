@@ -1,0 +1,31 @@
+body {
+    background-image: url('../Photos/arcade-retro-room.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 2em;
+    text-align: center;
+    cursor: url('../Photos/point.png'), pointer;
+}
+.player {
+    flex: 1 1 auto;
+}
+.stroke {
+    color: blueviolet;
+    text-shadow: -1.125px -1.125px 0 white, 1.125px -1.125px 0 white, -1.125px 1.125px 0 white, 1.125px 1.125px 0 white;
+  }
+canvas {
+    border:groove .2em white;
+    height: 85vh;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../Photos/vhs.gif") repeat;
+  opacity: 0.12;
+}
